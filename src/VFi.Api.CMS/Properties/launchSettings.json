@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "VFi.Api.CMS": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "cms-api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://*:5027"
+    }
+  }
+}

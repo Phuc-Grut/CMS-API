@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+   
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+		<PackageReference Include="HtmlAgilityPack.CssSelectors.NetCore" Version="1.2.1" />
+		<PackageReference Include="MassTransit" Version="8.0.3" />
+	</ItemGroup>
+
+   
+	<ItemGroup>
+	  <ProjectReference Include="..\EA.Domain.DAM\EA.Domain.DAM.csproj" />
+	  <ProjectReference Include="..\EA.Infra.DAM\EA.Infra.DAM.csproj" />
+	</ItemGroup>
+</Project>

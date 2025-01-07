@@ -1,0 +1,90 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "DAMContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "VFi.Domain.CMS",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+  "Tables": [
+    {
+      "Name": "[dam].[AccessPermission]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Activity]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Category]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[CategoryRoot]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Content]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Content_Category_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Content_GroupCategory_Mapping]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Group_Category]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[Item]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[OpenActivity]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[SP_COPY_CONTENT]",
+      "ObjectType": 1
+    },
+    {
+      "Name": "[dbo].[Content_Type]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dam].[ItemProduct]",
+      "ObjectType": 0
+    }
+
+  ],
+   "UiHint": "0157b7401120.ES_DAM.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

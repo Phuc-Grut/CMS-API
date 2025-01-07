@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Consul" Version="1.6.10.6" />
+		<PackageReference Include="Flurl" Version="3.0.7" />
+		<PackageReference Include="Flurl.Http" Version="3.2.4" />
+		<PackageReference Include="MassTransit" Version="8.0.3" />
+		<PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.0.3" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.14" />
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="PuppeteerSharp" Version="9.1.0" />
+		<PackageReference Include="StackExchange.Redis" Version="2.6.111" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\EA.Domain.DAM\EA.Domain.DAM.csproj" />
+	  <ProjectReference Include="..\EA.NetDevPack\EA.NetDevPack.csproj" />
+	</ItemGroup>
+
+</Project>
